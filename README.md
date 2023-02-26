@@ -7,3 +7,9 @@ To parse a fasta file, biopython is imported and seqIO is used to read the file,
 Next, all this information is written to a report text file.
 This must be run as a script on command line, so an argument functtion has to be created.
 Using argparse, the arguments are decided and help is also created to use it as a script.
+
+
+
+
+Usage:
+python my_quast.py contigs.fa report.txt
