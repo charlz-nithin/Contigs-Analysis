@@ -9,7 +9,7 @@ This must be run as a script on command line, so an argument functtion has to be
 Using argparse, the arguments are decided and help is also created to use it as a script.
 
 
-
+contigs.fa - provided as test data.
 
 Usage:
 python my_quast.py contigs.fa report.txt
