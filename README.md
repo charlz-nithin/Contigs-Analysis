@@ -5,7 +5,7 @@ N50 - The N50 value represents the length at which 50% of the total length of al
 To explain it in logical terrms, we need to get lengths sorted in reverse to the get the length of contigs to cover 50% genome and find the length of contigs that cover total length of genome / 2 (50%). Get length upto 50% and then return the length.
 To parse a fasta file, biopython is imported and seqIO is used to read the file, in this function the largest contig , length and number of contigs is calculated.
 Next, all this information is written to a report text file.
-This must be run as a script on command line, so an argument functtion has to be created.
+This must be run as a script on command line, so an argument function has to be created.
 Using argparse, the arguments are decided and help is also created to use it as a script.
 
 
