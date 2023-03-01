@@ -13,3 +13,5 @@ contigs.fa - provided as test data.
 
 Usage:
 python my_quast.py contigs.fa report.txt
+
+my_report_output file is the result generated from the above code.
